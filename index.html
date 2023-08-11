@@ -3,11 +3,450 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fisioterapia RM</title>
+    <title>Rayssa Muniz</title>
+    <link rel="shortcut icon" href="img/logo corrida.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/logo-azul.png" type="image/x-icon">
+    <link rel="stylesheet" href="lib/owlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owlCarousel/dist/assets/owl.theme.default.min.css">
+    <script src="script.js"></script>
+
+
 </head>
 <body>
+    <div class="containerHeader">
+        <div id="burguer">
+            <button class="buttonBurguer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="67" height="87" viewBox="0 0 67 87" fill="none">
+                    <path d="M8.375 25.2126H58.625" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M8.375 43.2217H58.625" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M8.375 61.2308H58.625" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+
+        <div id="logo">
+            <img src="img/logo.png" alt="logo rayssa muniz">
+        </div>
+        
+        <div id="slogan">
+            <h1>
+                Movimento é vida & vida é movimento
+            </h1>
+        </div>
+    </div>
+
+    <div id="containerCalendly">
+        <div id="iconCalendly">
+            <svg xmlns="http://www.w3.org/2000/svg" width="107" height="107" viewBox="0 0 107 107" fill="none">
+                <path d="M24.0063 93.6249C22.2931 93.6249 20.8359 93.0244 19.6348 91.8234C18.4338 90.6224 17.8333 89.1652 17.8333 87.4519V27.4359C17.8333 25.7225 18.4338 24.2653 19.6348 23.0642C20.8359 21.8632 22.2931 21.2627 24.0063 21.2627H33.2231V12.3461H37.2099V21.2627H70.133V12.3461H73.8626V21.2627H82.9936C84.7069 21.2627 86.1641 21.8632 87.3651 23.0642C88.5661 24.2653 89.1666 25.7225 89.1666 27.4359V87.4519C89.1666 89.1652 88.5661 90.6224 87.3651 91.8234C86.1641 93.0244 84.7069 93.6249 82.9936 93.6249H24.0063ZM24.0063 90.1955H82.9936C83.6795 90.1955 84.3082 89.9097 84.8798 89.3382C85.4514 88.7665 85.7372 88.1378 85.7372 87.4519V46.8124H21.2628V87.4519C21.2628 88.1378 21.5486 88.7665 22.1201 89.3382C22.6917 89.9097 23.3205 90.1955 24.0063 90.1955ZM21.2628 43.3829H85.7372V27.4359C85.7372 26.7499 85.4514 26.1212 84.8798 25.5497C84.3082 24.978 83.6795 24.6922 82.9936 24.6922H24.0063C23.3205 24.6922 22.6917 24.978 22.1201 25.5497C21.5486 26.1212 21.2628 26.7499 21.2628 27.4359V43.3829ZM53.5 63.1025C52.5797 63.1025 51.7781 62.761 51.095 62.0779C50.412 61.3949 50.0705 60.5933 50.0705 59.6731C50.0705 58.7528 50.412 57.9511 51.095 57.2681C51.7781 56.585 52.5797 56.2435 53.5 56.2435C54.4202 56.2435 55.2219 56.585 55.9049 57.2681C56.5879 57.9511 56.9294 58.7528 56.9294 59.6731C56.9294 60.5933 56.5879 61.3949 55.9049 62.0779C55.2219 62.761 54.4202 63.1025 53.5 63.1025ZM35.6666 63.1025C34.7464 63.1025 33.9447 62.761 33.2617 62.0779C32.5787 61.3949 32.2372 60.5933 32.2372 59.6731C32.2372 58.7528 32.5787 57.9511 33.2617 57.2681C33.9447 56.585 34.7464 56.2435 35.6666 56.2435C36.5869 56.2435 37.3886 56.585 38.0716 57.2681C38.7546 57.9511 39.0961 58.7528 39.0961 59.6731C39.0961 60.5933 38.7546 61.3949 38.0716 62.0779C37.3886 62.761 36.5869 63.1025 35.6666 63.1025ZM71.3333 63.1025C70.413 63.1025 69.6114 62.761 68.9284 62.0779C68.2454 61.3949 67.9039 60.5933 67.9039 59.6731C67.9039 58.7528 68.2454 57.9511 68.9284 57.2681C69.6114 56.585 70.413 56.2435 71.3333 56.2435C72.2536 56.2435 73.0552 56.585 73.7382 57.2681C74.4213 57.9511 74.7628 58.7528 74.7628 59.6731C74.7628 60.5933 74.4213 61.3949 73.7382 62.0779C73.0552 62.761 72.2536 63.1025 71.3333 63.1025ZM53.5 80.2499C52.5797 80.2499 51.7781 79.9084 51.095 79.2254C50.412 78.5423 50.0705 77.7407 50.0705 76.8205C50.0705 75.9002 50.412 75.0986 51.095 74.4155C51.7781 73.7325 52.5797 73.3909 53.5 73.3909C54.4202 73.3909 55.2219 73.7325 55.9049 74.4155C56.5879 75.0986 56.9294 75.9002 56.9294 76.8205C56.9294 77.7407 56.5879 78.5423 55.9049 79.2254C55.2219 79.9084 54.4202 80.2499 53.5 80.2499ZM35.6666 80.2499C34.7464 80.2499 33.9447 79.9084 33.2617 79.2254C32.5787 78.5423 32.2372 77.7407 32.2372 76.8205C32.2372 75.9002 32.5787 75.0986 33.2617 74.4155C33.9447 73.7325 34.7464 73.3909 35.6666 73.3909C36.5869 73.3909 37.3886 73.7325 38.0716 74.4155C38.7546 75.0986 39.0961 75.9002 39.0961 76.8205C39.0961 77.7407 38.7546 78.5423 38.0716 79.2254C37.3886 79.9084 36.5869 80.2499 35.6666 80.2499ZM71.3333 80.2499C70.413 80.2499 69.6114 79.9084 68.9284 79.2254C68.2454 78.5423 67.9039 77.7407 67.9039 76.8205C67.9039 75.9002 68.2454 75.0986 68.9284 74.4155C69.6114 73.7325 70.413 73.3909 71.3333 73.3909C72.2536 73.3909 73.0552 73.7325 73.7382 74.4155C74.4213 75.0986 74.7628 75.9002 74.7628 76.8205C74.7628 77.7407 74.4213 78.5423 73.7382 79.2254C73.0552 79.9084 72.2536 80.2499 71.3333 80.2499Z" fill="black"/>
+              </svg>
+        </div>
+        <div id="calendlyH1">
+            <h1>
+                FAÇA O AGENDAMENTO DE SUA CONSULTA 
+            </h1>
+        </div>
+        <div id="calendlyH2">
+            <h2>
+                conheça os  nossos serviços.
+            </h2>
+        </div>
+    </div>
+
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img class="imgcarousel" src="img/motora.png" alt="Fisioterapia Motora">
+            <h1 class="h1carousel">
+                Fisioterapia Motora
+            </h1>
+            <h2 class="h2carousel">
+                R$ 150,00
+            </h2>
+            <button class="buttoncarousel">
+                AGENDAR
+            </button>
+        </div>
+
+        <div class="item">
+            <img src="img/poscovid.png" alt="Fisioterapia Pós-COVID">
+            <h1>
+                Fisioterapia Pós-COVID
+            </h1>
+            <h2>
+                R$ 150,00
+            </h2>
+            <button>
+                AGENDAR
+            </button>
+        </div>
+
+        <div class="item">
+            <img src="img/respiratoria.png" alt="Fisioterapia Respiratória">
+            <h1>
+                Fisioterapia Respiratória
+            </h1>
+            <h2>
+                R$ 150,00
+            </h2>
+            <button>
+                AGENDAR
+            </button>
+        </div>
+
+        <div class="item">
+            <img src="img/preventiva.png" alt="Fisioterapia Preventiva">
+            <h1>
+                Fisioterapia Preventiva
+            </h1>
+            <h2>
+                R$ 150,00
+            </h2>
+            <button>
+                AGENDAR
+            </button>
+        </div>
+
+        <div class="item">
+            <img src="img/liberação.png" alt="Liberação Miofascial ">
+            <h1>
+                Liberação Miofascial
+            </h1>
+            <h2>
+                R$ 100,00
+            </h2>
+            <button>
+                AGENDAR
+            </button>
+        </div>
+
+        <div class="item">
+            <img src="img/ventosaterapia.png" alt="Ventosaterapia">
+            <h1>
+                Ventosaterapia
+            </h1>
+            <h2>
+                R$ 80,00
+            </h2>
+            <button>
+                AGENDAR
+            </button>
+        </div>
+
+        <div class="item">
+            <img src="img/auriculoterapia.png" alt="Auriculoterapia">
+            <h1>
+                Auriculoterapia
+            </h1>
+            <h2>
+                R$ 80,00
+            </h2>
+            <button>
+                AGENDAR
+            </button>
+        </div>
+
+        <div class="item">
+            <img src="img/massagem.png" alt="Massagem Relaxante">
+            <h1>
+                Massagem Relaxante
+            </h1>
+            <h2>
+                R$ 80,00
+            </h2>
+            <button>
+                AGENDAR
+            </button>
+        </div>
+    </div>
+
+    <div id="arraste">
+        <h1>
+            Arraste para o lado
+        </h1>
+        <img src="img/arrasteparaolado.png" alt="seta para a direita">
+    </div>
+
+    <div
+        id="line">
+    </div>
+
+    <div id="procedimentosH1">
+        <h1>
+            Conheça nossos procedimentos
+        </h1>
+    </div>
+
+    <div id="containerProcedimentos">
+        <div id="procedimento">
+            <h2>
+                Fisioterapia Motora
+            </h2>
+        </div>
+        <div id="procedimentoimg">
+            <img src="img/pimotora.png" alt="Fisioterapia motora">
+        </div>
+        <div id="infoMotora">
+            <h3>
+                A fisioterapia motora é uma especialidade da fisioterapia focada na recuperação e reabilitação do movimento humano. Através de técnicas personalizadas, como exercícios terapêuticos, modalidades físicas e técnicas manuais, os fisioterapeutas buscam fortalecer os músculos, melhorar a mobilidade articular e promover a coordenação e equilíbrio. Essa abordagem é especialmente benéfica para pacientes com lesões, doenças neuromusculares ou distúrbios musculoesqueléticos, visando restaurar a funcionalidade e melhorar a qualidade de vida.
+
+                A fisioterapia motora é uma especialidade que visa recuperar e reabilitar o movimento humano. Com exercícios terapêuticos, técnicas manuais e modalidades físicas, os fisioterapeutas fortalecem os músculos, melhoram a mobilidade das articulações e promovem a coordenação. Essa abordagem é especialmente útil para pessoas com lesões, doenças neuromusculares ou distúrbios musculoesqueléticos, com o objetivo de restaurar a funcionalidade e aprimorar a qualidade de vida.
+             </h3>
+        </div>
+    </div>
+
+    <div
+        id="line">
+    </div>
+
+    <div id="containerProcedimentos">
+        <div id="procedimento">
+            <h2>
+                Fisioterapia Pós-COVID
+            </h2>
+        </div>
+        <div id="procedimentoimg">
+            <img src="img/picovid.png" alt="Fisioterapia Pós-COVID">
+        </div>
+        <div id="infoCovid">
+            <h3>
+                A fisioterapia pós-COVID é uma abordagem especializada que visa ajudar os pacientes que se recuperaram da infecção pelo coronavírus a recuperar sua função física e qualidade de vida. Essa modalidade de fisioterapia é essencial devido aos efeitos duradouros que o COVID-19 pode ter no sistema respiratório, muscular e neurológico dos indivíduos afetados.
+
+                A fisioterapia pós-COVID utiliza uma variedade de técnicas e exercícios personalizados para fortalecer os músculos respiratórios, melhorar a capacidade pulmonar, aliviar a fadiga e restaurar a mobilidade física. Os fisioterapeutas especializados em pós-COVID desempenham um papel crucial no tratamento de pacientes que apresentam sintomas persistentes, como dispneia (falta de ar), fraqueza muscular, dor crônica e dificuldade de realizar atividades diárias. Com sua expertise, esses profissionais ajudam a promover a recuperação física e emocional dos pacientes, proporcionando uma abordagem holística e individualizada para cada pessoa afetada pela COVID-19.
+             </h3>
+        </div>
+    </div>
+
+    <div
+        id="line">
+    </div>
+
+    <div id="containerProcedimentos">
+        <div id="procedimento">
+            <h2>
+                Fisioterapia Respiratória
+            </h2>
+        </div>
+        <div id="procedimentoimg">
+            <img src="img/pirespiratoria.png" alt="Fisioterapia Respiratória">
+        </div>
+        <div id="infoRespiratoria">
+            <h3>
+                A fisioterapia respiratória é uma área especializada da fisioterapia que se concentra no tratamento e na reabilitação de distúrbios respiratórios. É uma abordagem terapêutica que visa melhorar a função pulmonar, promover a desobstrução das vias aéreas, otimizar a capacidade de respiração e auxiliar na remoção de secreções pulmonares.
+
+                Através de técnicas e exercícios específicos, a fisioterapia respiratória ajuda a expandir os pulmões, fortalecer os músculos respiratórios e melhorar a eficiência da troca gasosa. Os fisioterapeutas respiratórios trabalham em estreita colaboração com pacientes que sofrem de condições como asma, bronquite crônica, fibrose cística, doença pulmonar obstrutiva crônica (DPOC) e pós-operatório de cirurgias torácicas. Essa modalidade de fisioterapia desempenha um papel fundamental na promoção da saúde respiratória, proporcionando alívio dos sintomas, reduzindo as complicações respiratórias e melhorando a qualidade de vida dos pacientes afetados por doenças respiratórias.
+             </h3>
+        </div>
+    </div>
+
+    <div
+        id="line">
+    </div>
+
+    <div id="containerProcedimentos">
+        <div id="procedimento">
+            <h2>
+                Fisioterapia Preventiva
+            </h2>
+        </div>
+        <div id="procedimentoimg">
+            <img src="img/pipreventiva.png" alt="Fisioterapia Preventiva">
+        </div>
+        <div id="infoPreventiva">
+            <h3>
+                A fisioterapia preventiva é uma abordagem terapêutica que busca prevenir lesões, disfunções musculoesqueléticas e problemas de saúde por meio de intervenções fisioterapêuticas antes que eles se desenvolvam completamente. É um ramo da fisioterapia voltado para a promoção da saúde, prevenção de lesões e melhoria do bem-estar físico.
+
+                A fisioterapia preventiva envolve uma combinação de técnicas, exercícios e orientações personalizadas para cada indivíduo, visando melhorar a postura, fortalecer os músculos, aumentar a flexibilidade e prevenir o aparecimento de problemas musculoesqueléticos. Além disso, os fisioterapeutas preventivos fornecem orientações sobre ergonomia, técnicas de movimento adequadas e hábitos saudáveis, com o objetivo de evitar lesões relacionadas ao trabalho, esportes ou atividades diárias. Ao se concentrar na prevenção, a fisioterapia preventiva desempenha um papel importante na redução de riscos e na manutenção da saúde física, permitindo que as pessoas mantenham uma vida ativa e evitem problemas futuros.
+             </h3>
+        </div>
+    </div>
+
+    <div
+        id="line">
+    </div>
+
+    <div id="containerProcedimentos">
+        <div id="procedimento">
+            <h2>
+                Liberação Miofascial
+            </h2>
+        </div>
+        <div id="procedimentoimg">
+            <img src="img/piliberação.png" alt="Liberação Miofascial">
+        </div>
+        <div id="infoLiberação">
+            <h3>
+                A liberação miofascial é uma técnica terapêutica utilizada na fisioterapia para tratar disfunções musculoesqueléticas e aliviar dores musculares. Ela se concentra na manipulação do tecido conjuntivo, chamado de fáscia, que envolve os músculos, tendões e ligamentos do corpo.
+
+                Durante uma sessão de liberação miofascial, o fisioterapeuta aplica pressão manual ou utiliza ferramentas especiais para romper os pontos de tensão e aderências que se formam no tecido fascial. Isso ajuda a restaurar a elasticidade, melhorar a circulação sanguínea e promover a liberação de tensões musculares. A liberação miofascial é amplamente utilizada para tratar condições como dores crônicas, restrições de movimento, lesões esportivas e desequilíbrios posturais. Ao trabalhar diretamente nos tecidos fasciais, essa técnica terapêutica auxilia na melhoria da mobilidade, redução da dor e recuperação do corpo, permitindo que os pacientes voltem a suas atividades diárias com mais conforto e funcionalidade.
+             </h3>
+        </div>
+    </div>
+
+    <div
+        id="line">
+    </div>
+
+    <div id="containerProcedimentos">
+        <div id="procedimento">
+            <h2>
+                Ventosaterapia
+            </h2>
+        </div>
+        <div id="procedimentoimg">
+            <img src="img/piventosaterapia.png" alt="Ventosaterapia">
+        </div>
+        <div id="infoVentosaterapia">
+            <h3>
+                A ventosaterapia é uma técnica terapêutica antiga que envolve a aplicação de copos de vidro ou de plástico na pele, criando um vácuo que suga a pele para dentro do copo. Essa sucção cria uma pressão negativa que estimula o fluxo sanguíneo local, promovendo a circulação e a liberação de tensões musculares.
+
+                Durante uma sessão de ventosaterapia, os copos são colocados em áreas específicas do corpo, criando uma pressão que pode ajudar a aliviar a dor, melhorar a circulação, reduzir a inflamação e promover o relaxamento muscular. Além disso, a ventosaterapia é frequentemente usada para tratar condições como dores nas costas, tensões musculares, problemas respiratórios e celulite. Essa técnica terapêutica proporciona uma abordagem não invasiva e complementar para o tratamento de diversos problemas de saúde, ajudando os pacientes a alcançarem alívio e bem-estar.
+
+             </h3>
+        </div>
+    </div>
+
+    <div
+        id="line">
+    </div>
+
+    <div id="containerProcedimentos">
+        <div id="procedimento">
+            <h2>
+                Auriculoterapia
+            </h2>
+        </div>
+        <div id="procedimentoimg">
+            <img src="img/piauriculoterapia.png" alt="Auriculoterapia">
+        </div>
+        <div id="infoAuriculoterapia">
+            <h3>
+                A auriculoterapia é uma forma de terapia complementar que se baseia no estímulo de pontos específicos localizados na orelha para tratar diferentes condições de saúde. Esses pontos auriculares estão ligados a diferentes partes do corpo e órgãos, e acredita-se que ao estimulá-los, é possível promover o equilíbrio e a cura.
+
+                Durante uma sessão de auriculoterapia, pequenas agulhas, sementes de plantas ou esferas metálicas são aplicadas nos pontos auriculares correspondentes aos sintomas ou condições específicas do paciente. Esses estímulos podem ajudar a aliviar dores, reduzir o estresse, melhorar o sono e tratar uma variedade de condições, incluindo enxaquecas, ansiedade, problemas digestivos e dores crônicas. A auriculoterapia oferece uma abordagem não invasiva e holística, estimulando o corpo a se autocurar e restaurar o equilíbrio energético, visando a promoção da saúde e do bem-estar geral.
+
+             </h3>
+        </div>
+    </div>
+
+    <div
+        id="line">
+    </div>
+
+    <div id="containerProcedimentos">
+        <div id="procedimento">
+            <h2>
+                Massagem Relaxante
+            </h2>
+        </div>
+        <div id="procedimentoimg">
+            <img src="img/pimassagem.png" alt="Massagem Relaxante">
+        </div>
+        <div id="infoMassagem">
+            <h3>
+                A massagem relaxante é uma técnica terapêutica que utiliza movimentos suaves, rítmicos e firmes para promover o relaxamento físico e mental. Ela é realizada através da aplicação de pressão nas camadas superficiais dos músculos, aliviando a tensão muscular, reduzindo o estresse e proporcionando uma sensação geral de bem-estar.
+
+                Durante uma sessão de massagem relaxante, óleos essenciais podem ser utilizados para potencializar os efeitos relaxantes. Os movimentos são aplicados de maneira lenta e fluída, promovendo a circulação sanguínea, aumentando a oxigenação dos tecidos e ajudando a liberar toxinas acumuladas no corpo. Essa técnica terapêutica é ideal para aliviar o estresse do dia a dia, reduzir dores musculares, melhorar a qualidade do sono e promover o equilíbrio emocional. A massagem relaxante proporciona um momento de descanso e renovação, estimulando o relaxamento profundo e a restauração da vitalidade física e mental.
+             </h3>
+        </div>
+    </div>
+
+    <div
+        id="line">
+    </div>
+
+    <div id="containerPatrocinios">
+        <div id="nossosparceiros">
+            <h1>
+                Nossos Parceiros
+            </h1>
+        </div>
+        
+        <div id="patrocinador">
+            <h2>
+                Rayssa Jóias
+            </h2>
+            <img src="img/setaesquerda.svg" alt="seta para a esquerda">
+            <img src="img/rayssajoias.png" alt="Instagram Rayssa Jóias">
+            <img src="img/setadireita.svg" alt="seta para a direita">
+        </div>        
+    </div>
+
+    <div id="containerPatrocinios">
+        <div id="nossosparceiros">
+            <h1>
+                Nossos Parceiros
+            </h1>
+        </div>
+        
+        <div id="patrocinador">
+            <h2>
+                Dev. Samuel Muniz
+            </h2>
+            <img src="img/setaesquerda.svg" alt="seta para a esquerda">
+            <img src="img/linkedindevsamuelmuniz.png" alt="Instagram Rayssa Jóias">
+            <img src="img/setadireita.svg" alt="seta para a direita">
+        </div>        
+    </div>
     
+    <div id="containerFooter">
+        <footer>
+            <img src="img/Português do Brasil.png" alt="bandeira do brasil">
+            <div id="crefito">
+                <h1 class="crefitotext">
+                    CREFITO: 357918-F
+                </h1>
+            </div>
+                <div>
+                <img src="img/logo.png" alt="logo Rayssa Muniz">
+                <h1 class="slogan">
+                    Movimento é vida & vida é movimento
+                </h1>
+            </div>
+            <div id="redessociais">
+                <img src="img/WhatsApp.png" alt="logo whatsapp">
+                <img src="img/instagram.png" alt="logo instagram">
+            </div>
+
+            <div 
+                id="line">
+            </div>
+
+            <div id="copyright">
+                <h1>
+                    Copyright © 2023 Fisioterapeuta Rayssa Muniz.  All rights reserved.
+                </h1>
+
+                <h1>
+                    Recife, pernambuco
+                </h1>
+
+                 <div 
+                    id="linefooter">
+                 </div>
+
+                 <h1>
+                    Brasil
+                 </h1>
+
+                 <h1>
+                    Website created by DevSamuelMuniz & DevAnaAndrade
+                 </h1>
+            </div>
+            
+        </footer>
+    </div>
+
+
+
+<script src="lib/jquery/jquery.min.js"></script>
+ <script src="lib/owlCarousel/dist/owl.carousel.js"></script>
+
+ <script type="text/javascript">
+
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel();
+    });
+
+ </script>
 </body>
 </html>
