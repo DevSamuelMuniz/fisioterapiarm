@@ -153,3 +153,12 @@ body{
   font-weight: 400;
   line-height: normal;
 }
+
+#arraste {
+  position: relative;
+  top: -60px;
+  left: 30px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
