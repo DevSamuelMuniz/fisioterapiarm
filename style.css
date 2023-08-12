@@ -3,7 +3,7 @@ body{
   margin: 0px;
   padding: 0px;
   font-family: 'Poppins', sans-serif; 
-}
+
 
 .containerHeader {
   background: #2F6158;
@@ -247,6 +247,89 @@ body{
   position: relative;
   display: flex;
   justify-content: center;
+}
+
+#containerFooter {
+  background: #2F6158;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#brasil {
+  width: 253px;
+  height: 54px;
+  flex-shrink: 0;
+}
+
+#Logos {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 100px;
+}
+
+#logofooter {
+  width: 200px;
+  height: auto;
+}
+
+#sloganfooter {
+  position: relative;
+  font-size: 40px;
+  background: linear-gradient(to bottom, #ffffff,#ffffffc9, #f1f1f100);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;   
+}
+
+#redessociais {
+  display: flex;
+  justify-content: end;
+  margin: 30px;
+}
+
+#rede {
+  width: 80px; 
+  margin: 10px;
+  height: auto;
+}
+
+#lines {
+  width: 100%;
+  height: 1px;
+ 
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.63);
+}
+
+#copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
 
 
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Poppins;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#linefooter {
+  width: 2px;
+  height: 50px;
+  background-color: black;
+  margin: 0 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#cidade:hover{
+  font-size: 6.1px;
 }
