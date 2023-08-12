@@ -6,19 +6,53 @@ body{
 }
 
 .containerHeader {
-    background: #2F6158;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: #2F6158;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     
 }
   
 .containerHeader > div {
-    display: inline-block;
-    vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.buttonBurguer {
+  position: relative;
+  background: none;
+  border: none;
+  top: 3px;
+  left: 30px;
+  cursor: pointer;
+}
+
+.buttonBurguer:hover {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+  
+
+#logo {
+  position: relative;
+  width: 180px;
+  height: auto;
+  left: 40px;
+}
+  
+#slogan {
+  position: relative;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  left: 300px;
+  background: linear-gradient(to bottom, #ffffff,#ffffffc9, #f1f1f100);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;   
 }
 
 #containerCalendly {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #iconCalendly{
@@ -38,81 +72,88 @@ body{
   top: -35px;
   left: 200px;
 }
-  
-.buttonBurguer {
-    position: relative;
-    background: none;
-    border: none;
-    top: 3px;
-    left: 30px;
-    cursor: pointer;
-}
-
-.buttonBurguer:hover {
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
-}
-  
-
-#logo {
-    position: relative;
-    width: 180px;
-    height: auto;
-    left: 40px;
-}
-  
-#slogan {
-    position: relative;
-    font-family: Poppins;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    left: 300px;
-    background: linear-gradient(to bottom, #ffffff,#ffffffc9, #f1f1f100);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;   
-}
-  
+    
 .item  {
-    color: white;
-    width: 361px;
-    height: 488px;
-    border-radius: 30px;
-    background: #2B6A5F;
-    text-align: center;
-    line-height: 200px;
+  color: white;
+  width: 361px;
+  height: 488px;
+  border-radius: 30px;
+  background: #2B6A5F;
+  text-align: center;
+  line-height: 200px;
 }
   
+.owl-carousel{
+  margin: 50px;
+
+}
+
+.owl-carousel.owl-theme .owl-item {
+  
+}
+
 .imgcarousel {
-    max-width: 90%;
-    padding-top: 34px;
-    padding-left: 18px;  
+  max-width: 90%;
+  padding-top: 34px;
+  padding-left: 18px;  
 }
   
 .h1carousel {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;  
   }
   
 .h2carousel {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 5px;
+  line-height: normal;
 }
   
 .buttoncarousel{
-    width: 316px;
-    height: 67px;
-    flex-shrink: 0;
-    border-radius: 30px;
-    background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  border: none;
+  top: -80px;
+  width: 316px;
+  height: 67px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.buttoncarousel:hover{
+  position: relative;
+  border: none;
+  top: -82px;
+  left: 0.2px;
+  width: 316px;
+  height: 67px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+
+  color: #023f00;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

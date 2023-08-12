@@ -72,92 +72,92 @@
         </div>
 
         <div class="item">
-            <img src="img/poscovid.png" alt="Fisioterapia Pós-COVID">
-            <h1>
+            <img class="imgcarousel" src="img/poscovid.png" alt="Fisioterapia Pós-COVID">
+            <h1 class="h1carousel">
                 Fisioterapia Pós-COVID
             </h1>
-            <h2>
+            <h2 class="h2carousel">
                 R$ 150,00
             </h2>
-            <button>
+            <button class="buttoncarousel">
                 AGENDAR
             </button>
         </div>
 
         <div class="item">
-            <img src="img/respiratoria.png" alt="Fisioterapia Respiratória">
-            <h1>
+            <img class="imgcarousel" src="img/respiratoria.png" alt="Fisioterapia Respiratória">
+            <h1 class="h1carousel">
                 Fisioterapia Respiratória
             </h1>
-            <h2>
+            <h2 class="h2carousel">
                 R$ 150,00
             </h2>
-            <button>
+            <button class="buttoncarousel">
                 AGENDAR
             </button>
         </div>
 
         <div class="item">
-            <img src="img/preventiva.png" alt="Fisioterapia Preventiva">
-            <h1>
+            <img class="imgcarousel" src="img/preventiva.png" alt="Fisioterapia Preventiva">
+            <h1 class="h1carousel">
                 Fisioterapia Preventiva
             </h1>
-            <h2>
+            <h2 class="h2carousel">
                 R$ 150,00
             </h2>
-            <button>
+            <button class="buttoncarousel">
                 AGENDAR
             </button>
         </div>
 
         <div class="item">
-            <img src="img/liberação.png" alt="Liberação Miofascial ">
-            <h1>
+            <img class="imgcarousel" src="img/liberação.png" alt="Liberação Miofascial ">
+            <h1 class="h1carousel">
                 Liberação Miofascial
             </h1>
-            <h2>
+            <h2 class="h2carousel">
                 R$ 100,00
             </h2>
-            <button>
+            <button class="buttoncarousel">
                 AGENDAR
             </button>
         </div>
 
         <div class="item">
-            <img src="img/ventosaterapia.png" alt="Ventosaterapia">
-            <h1>
+            <img class="imgcarousel" src="img/ventosaterapia.png" alt="Ventosaterapia">
+            <h1 class="h1carousel">
                 Ventosaterapia
             </h1>
-            <h2>
+            <h2 class="h2carousel">
                 R$ 80,00
             </h2>
-            <button>
+            <button class="buttoncarousel">
                 AGENDAR
             </button>
         </div>
 
         <div class="item">
-            <img src="img/auriculoterapia.png" alt="Auriculoterapia">
-            <h1>
+            <img class="imgcarousel" src="img/auriculoterapia.png" alt="Auriculoterapia">
+            <h1 class="h1carousel">
                 Auriculoterapia
             </h1>
-            <h2>
+            <h2 class="h2carousel">
                 R$ 80,00
             </h2>
-            <button>
+            <button class="buttoncarousel">
                 AGENDAR
             </button>
         </div>
 
         <div class="item">
-            <img src="img/massagem.png" alt="Massagem Relaxante">
-            <h1>
+            <img class="imgcarousel" src="img/massagem.png" alt="Massagem Relaxante">
+            <h1 class="h1carousel">
                 Massagem Relaxante
             </h1>
-            <h2>
+            <h2 class="h2carousel">
                 R$ 80,00
             </h2>
-            <button>
+            <button class="buttoncarousel">
                 AGENDAR
             </button>
         </div>
@@ -443,14 +443,17 @@
 
 
 <script src="lib/jquery/jquery.min.js"></script>
- <script src="lib/owlCarousel/dist/owl.carousel.js"></script>
+ <script src="lib/owlCarousel/dist/owl.carousel.min.js"></script>
 
  <script type="text/javascript">
 
-    $(document).ready(function(){
-        $('.owl-carousel').owlCarousel();
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+      items: 4,
+      margin: 10,
     });
-
+  }); 
+    
  </script>
 </body>
 </html>
