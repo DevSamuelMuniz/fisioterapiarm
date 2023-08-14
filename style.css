@@ -23,8 +23,10 @@ body {
   height: auto;
 
   @media (max-width: 847px) {
+    position: relative;
     width: 120px;
     height: auto;
+    left: -10px;
     }
   }
 
@@ -41,8 +43,9 @@ body {
   text-align: center;
 
   @media (max-width: 847px) {
-    left: 0;
-    font-size: 12px;
+    position: relative;
+    left: -8px;
+    font-size: 9px;
   }
 }
 
@@ -65,8 +68,10 @@ body {
   top: 40px;
 
   @media (max-width: 847px) {
-    width: 80px;
-    left: 20px;
+    position: relative;
+    width: 60px;
+    left: -165px;
+    top: -5px;
   } 
 }
 
@@ -78,9 +83,9 @@ body {
   font-size: 14px;
 
   @media (max-width: 847px) {
-    font-size: 10px;
-    left: 10px;
-    top: 23px;
+    font-size: 8px;
+    left: 30px;
+    top: -95px;
   }
 }
 
@@ -90,9 +95,15 @@ body {
   left: 200px;
 
   @media (max-width: 847px) {
-  font-size: 14px;
-  top: -30px;
-  left: 175px;
+  font-size: 9px;
+  top: -118px;
+  left: 76px;
+  }
+}
+
+.owl-carousel {
+  @media (max-width: 847px) {    
+   top: -120px;
   }
 }
     
@@ -104,6 +115,11 @@ body {
   background: #2B6A5F;
   text-align: center;
   line-height: 200px;
+
+  @media (max-width: 847px) {
+    width: 150px;
+    height: 225px;   
+  }
 }
   
 .owl-carousel{
@@ -115,7 +131,12 @@ body {
   max-width: 90%;
   padding-top: 34px;
   padding-left: 18px;  
-}
+
+  @media (max-width: 847px) {
+  max-width: 70%;
+  padding-top: 25px;
+  padding-left: 25px;
+}}
   
 .h1carousel {
   color: #FFF;
@@ -124,7 +145,11 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;  
+
+  @media (max-width: 847px) {
+    font-size: 12px;
   }
+}
   
 .h2carousel {
   position: relative;
@@ -136,6 +161,11 @@ body {
   font-weight: 400;
   padding: 5px;
   line-height: normal;
+
+  @media (max-width: 847px) {
+    font-size: 18px;
+    top: -10px;
+  }
 }
   
 .buttoncarousel{
@@ -161,6 +191,13 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  @media (max-width: 847px) {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+  }
 }
 
 .buttoncarousel:hover{
@@ -181,6 +218,13 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  @media (max-width: 847px) {
+    padding: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 18px;  
+  }
 }
 
 #arraste {
@@ -190,6 +234,19 @@ body {
   font-size: 12px;
   display: flex;
   align-items: center;
+
+  @media (max-width: 847px) {
+    top: -180px;
+    font-size: 10px;
+  }
+}
+
+#arrasteimg{
+  @media (max-width: 847px) {
+    position: relative;
+    width: 30px;
+    left: 8px;
+  }
 }
 
 #line {
@@ -200,6 +257,10 @@ body {
   top: 45px;  
 
   background: rgba(23, 45, 41, 0.80);
+
+  @media (max-width: 847px) {
+    top: -80px;
+  }
 }
 
 #procedimentosH1 {
@@ -211,6 +272,10 @@ body {
   padding-bottom: 100px;
   padding-top: 50px;
   left: 45px;
+
+  @media (max-width: 847px) {
+    top: -80px;
+  }
 }
 
 #procedimento {

@@ -149,7 +149,7 @@
         <h1>
             Arraste para o lado
         </h1>
-        <img src="img/arrasteparaolado.png" alt="seta para a direita">
+        <img id="arrasteimg" src="img/arrasteparaolado.png" alt="seta para a direita">
     </div>
 
     <div
@@ -448,9 +448,17 @@ $(document).ready(function(){
       items: 4,
       margin: 10,
       loop: true,
-    
-    });
+      responsive: {
+      0: {
+        items: 2
+    },
+      
+      1339: {
+        items: 4
+      }
+    }
   });
+});
     
  </script>
 </body>
