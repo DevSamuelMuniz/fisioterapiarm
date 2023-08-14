@@ -1,43 +1,62 @@
-
-body{
-  margin: 0px;
-  padding: 0px;
-  font-family: 'Poppins', sans-serif; 
-
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
 
 .containerHeader {
   background: #2F6158;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);    
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex; /* Adiciona um display flex para alinhar os itens */
+  align-items: center; /* Centraliza verticalmente os itens */
+  justify-content: space-between; /* Coloca espaço entre os itens */
+  padding: 10px 20px; /* Adiciona um espaço ao redor do conteúdo */
+
+  @media (max-width: 847px) {
+      flex-direction: column;
+      align-items: center;
+    }
 }
-  
-.containerHeader > div {
-  display: inline-block;
-  vertical-align: middle;
-}  
 
 #logo {
-  position: relative;
   width: 180px;
   height: auto;
-  left: 60px;
-}
-  
+
+  @media (max-width: 847px) {
+    width: 120px;
+    height: auto;
+    }
+  }
+
 #slogan {
-  position: relative;
-  left: 300px;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  background: linear-gradient(to bottom, #ffffff,#ffffffc9, #f1f1f100);
+  background: linear-gradient(to bottom, #ffffff, #ffffffc9, #f1f1f100);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;   
+  -webkit-text-fill-color: transparent;
+  flex-grow: 1; /* Faz o slogan expandir para ocupar o espaço disponível */
+  text-align: center;
+
+  @media (max-width: 847px) {
+    left: 0;
+    font-size: 12px;
+  }
 }
+
+
 
 #containerCalendly {
   display: flex;
   align-items: center;
+
+  @media (max-width: 847px) {
+    flex-direction: column;
+    align-items: center;
+    
+  }
 }
 
 #iconCalendly{
@@ -45,6 +64,10 @@ body{
   left: 70px;
   top: 40px;
 
+  @media (max-width: 847px) {
+    width: 80px;
+    left: 20px;
+  } 
 }
 
 #calendlyH1 {
@@ -53,12 +76,24 @@ body{
   left: 90px;
   top: 10px;
   font-size: 14px;
+
+  @media (max-width: 847px) {
+    font-size: 10px;
+    left: 10px;
+    top: 23px;
+  }
 }
 
 #calendlyH2 {
   position: relative;
   top: -35px;
   left: 200px;
+
+  @media (max-width: 847px) {
+  font-size: 14px;
+  top: -30px;
+  left: 175px;
+  }
 }
     
 .item  {
