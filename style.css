@@ -13,21 +13,7 @@ body{
 .containerHeader > div {
   display: inline-block;
   vertical-align: middle;
-}
-
-.buttonBurguer {
-  position: relative;
-  background: none;
-  border: none;
-  top: 3px;
-  left: 30px;
-  cursor: pointer;
-}
-
-.buttonBurguer:hover {
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
-}
-  
+}  
 
 #logo {
   position: relative;
@@ -120,6 +106,11 @@ body{
 .buttoncarousel{
   position: relative;
   border: none;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+
   top: -90px;
   width: 200px;
   height: 55px;
