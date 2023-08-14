@@ -33,19 +33,17 @@ body{
   position: relative;
   width: 180px;
   height: auto;
-  left: 120px;
+  left: 60px;
 }
   
 #slogan {
   position: relative;
-
-  
+  left: 300px;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  left: 400px;
   background: linear-gradient(to bottom, #ffffff,#ffffffc9, #f1f1f100);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;   
@@ -58,14 +56,17 @@ body{
 
 #iconCalendly{
   position: relative;
-  left: 50px;
-  top: 25px;
+  left: 70px;
+  top: 40px;
+
 }
 
 #calendlyH1 {
   position: relative;
   flex: 1;
   left: 90px;
+  top: 10px;
+  font-size: 14px;
 }
 
 #calendlyH2 {
@@ -76,8 +77,8 @@ body{
     
 .item  {
   color: white;
-  width: 361px;
-  height: 488px;
+  width: 300px;
+  height: 400px;
   border-radius: 30px;
   background: #2B6A5F;
   text-align: center;
@@ -98,16 +99,18 @@ body{
 .h1carousel {
   color: #FFF;
   font-family: Poppins;
-  font-size: 25px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;  
   }
   
 .h2carousel {
+  position: relative;
+  top: -15px;
   color: #FFF;
   font-family: Poppins;
-  font-size: 28px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   padding: 5px;
@@ -117,9 +120,9 @@ body{
 .buttoncarousel{
   position: relative;
   border: none;
-  top: -80px;
-  width: 316px;
-  height: 67px;
+  top: -90px;
+  width: 200px;
+  height: 55px;
   flex-shrink: 0;
   border-radius: 30px;
   background: #FFF;
@@ -137,19 +140,18 @@ body{
 .buttoncarousel:hover{
   position: relative;
   border: none;
-  top: -82px;
-  left: 0.2px;
-  width: 316px;
-  height: 67px;
+  top: -90px;
+  width: 210px;
+  height: 62px;
   flex-shrink: 0;
   border-radius: 30px;
   background: #FFF;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
   cursor: pointer;
 
   color: #023f00;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -169,17 +171,20 @@ body{
   width: 1337.024px;
   height: 1px;
   margin: 0 auto;
-  top: 45px;
-  
+  top: 45px;  
 
   background: rgba(23, 45, 41, 0.80);
 }
 
 #procedimentosH1 {
+  font-size: 14px;
   position: relative;
   width: 30%;
   margin: 0 auto;
-  top: 30px;
+  top: 40px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  left: 45px;
 }
 
 #procedimento {
@@ -187,7 +192,12 @@ body{
   left: 658px;
   top: 20px;
   font-weight: 100;
-  font-size: 38px;
+  font-size: 24px;
+}
+
+#procedimentoimg{
+  position: relative;
+  top: 40px;
 }
 
 #infos {
@@ -209,15 +219,16 @@ body{
 }
 
 #containerPatrocinios {
-  width: 1200px;
-  height: 550px;
+  width: 800px;
+  height: 500px;
 
   background: #2F6158;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  margin: 160px;
+  margin: 100px;
+  border-radius: 20px;
 
   position: relative;
-  left: 200px;
+  left: 300px;
 }
 
 #nossosparceiros {
@@ -253,25 +264,25 @@ body{
 #containerFooter {
   background: #2F6158;
   box-shadow: 0px 4px 4px #00000040; 
-  clip-path: inset(30% 0 0 0); 
+  clip-path: inset(55% 0 0 0);
 }
 
 #brasil {
   position: relative;
-  top: 250px;
+  top: 275px;
   left: 50px;
 
-  width: 300px;
+  width: 210px;
   height: auto;
 }
 
 #crefito {
   position: relative;
-  top: 250px;
+  top: 255px;
   left: 50px;
 
-  width: 320px;
-  height: 76px;
+  width: 220px;
+  height: 60px;
 
   border-radius: 30px;
   background: #418579;
@@ -280,11 +291,11 @@ body{
 .crefitotext {
   color: #FFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-size: 30px;
+  font-size: 20px;
 
   position: relative;
   top: 15px;
-  left: 32px;
+  left: 25px;
 }
 
 #Logos {
@@ -297,13 +308,16 @@ body{
 }
 
 #logofooter {
-  width: 200px;
+  position: relative;
+  top: 60px;
+  width: 150px;
   height: auto;
 }
 
 #sloganfooter {
   position: relative;
-  font-size: 40px;
+  top: 45px;
+  font-size: 20px;
   background: linear-gradient(to bottom, #ffffff,#ffffffc9, #f1f1f100);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;   
@@ -318,10 +332,10 @@ body{
 
 #rede {
   position: relative;
-  width: 80px; 
+  width: 60px; 
   margin: 5px;
   height: auto;
-  top: -100px;
+  top: px;
 }
 
 #whats {
@@ -329,8 +343,8 @@ body{
   color: white;
 
   position: relative;
-  right: 90px;
-  top: -80px;
+  right: 80px;
+  top: 20px;
 }
 
 #insta {
@@ -338,8 +352,8 @@ body{
   color: white;
 
   position: relative;
-  right: 90px;
-  top: -80px;
+  right: 80px;
+  top: 20px;
 }
 
 #lines {
