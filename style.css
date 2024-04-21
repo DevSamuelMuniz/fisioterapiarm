@@ -1,12 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-
 .containerHeader {
-  background: #2F6158;
+  background: #2f6158;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   display: flex; /* Adiciona um display flex para alinhar os itens */
   align-items: center; /* Centraliza verticalmente os itens */
@@ -14,9 +13,9 @@ body {
   padding: 10px 20px; /* Adiciona um espaço ao redor do conteúdo */
 
   @media (max-width: 847px) {
-      flex-direction: column;
-      align-items: center;
-    }
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 #logo {
@@ -28,8 +27,8 @@ body {
     width: 140px;
     height: auto;
     left: -10px;
-    }
   }
+}
 
 #slogan {
   font-family: Poppins;
@@ -50,8 +49,6 @@ body {
   }
 }
 
-
-
 #containerCalendly {
   display: flex;
   align-items: center;
@@ -59,11 +56,10 @@ body {
   @media (max-width: 847px) {
     flex-direction: column;
     align-items: center;
-    
   }
 }
 
-#iconCalendly{
+#iconCalendly {
   position: relative;
   left: 70px;
   top: 40px;
@@ -73,7 +69,7 @@ body {
     width: 60px;
     left: -165px;
     top: -5px;
-  } 
+  }
 }
 
 #calendlyH1 {
@@ -96,69 +92,66 @@ body {
   left: 200px;
 
   @media (max-width: 847px) {
-  font-size: 9px;
-  top: -118px;
-  left: 76px;
+    font-size: 9px;
+    top: -118px;
+    left: 76px;
   }
 }
 
 .owl-carousel {
-  @media (max-width: 847px) {    
-   top: -120px;
+  @media (max-width: 847px) {
+    top: -120px;
   }
 }
-    
-.item  {
+
+.item {
   color: white;
   width: 300px;
   height: 400px;
   border-radius: 4px;
-  background: #2B6A5F;
+  background: #2b6a5f;
   text-align: center;
   line-height: 200px;
 
   @media (max-width: 847px) {
     width: 150px;
-    height: 225px;   
-    
+    height: 225px;
   }
 }
-  
-.owl-carousel{
+
+.owl-carousel {
   margin: 50px;
-
 }
-
 
 .imgcarousel {
   max-width: 90%;
   padding-top: 34px;
-  padding-left: 18px; 
+  padding-left: 18px;
 
   @media (max-width: 847px) {
-  max-width: 70%;
-  padding-top: 25px;
-  padding-left: 25px;
-}}
+    max-width: 70%;
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+}
 
-  
 .h1carousel {
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;  
+  line-height: normal;
 
   @media (max-width: 847px) {
     font-size: 12px;
   }
 }
-  
+
 .h2carousel {
   position: relative;
   top: -15px;
-  color: #FFF;
+  color: #fff;
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
@@ -171,8 +164,8 @@ body {
     top: -10px;
   }
 }
-  
-.buttoncarousel{
+
+.buttoncarousel {
   position: relative;
   border: none;
   text-decoration: none;
@@ -185,7 +178,7 @@ body {
   height: 55px;
   flex-shrink: 0;
   border-radius: 5px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 
@@ -204,7 +197,7 @@ body {
   }
 }
 
-.buttoncarousel:hover{
+.buttoncarousel:hover {
   position: relative;
   border: none;
   top: -90px;
@@ -213,7 +206,7 @@ body {
   flex-shrink: 0;
   border-radius: 5px;
 
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.35);
   cursor: pointer;
 
@@ -228,7 +221,7 @@ body {
     padding: 7px;
     padding-left: 12px;
     padding-right: 12px;
-    font-size: 18px;  
+    font-size: 18px;
   }
 }
 
@@ -246,7 +239,7 @@ body {
   }
 }
 
-#arrasteimg{
+#arrasteimg {
   @media (max-width: 847px) {
     position: relative;
     width: 30px;
@@ -259,9 +252,9 @@ body {
   width: 1337.024px;
   height: 1px;
   margin: 0 auto;
-  top: 45px;  
+  top: 45px;
 
-  background: rgba(23, 45, 41, 0.80);
+  background: rgba(23, 45, 41, 0.8);
 
   @media (max-width: 847px) {
     top: -80px;
@@ -291,7 +284,7 @@ body {
   font-size: 24px;
 }
 
-#procedimentoimg{
+#procedimentoimg {
   position: relative;
   top: 40px;
 }
@@ -309,7 +302,7 @@ body {
   margin: 50px;
 }
 
-#containerProcedimentos img{
+#containerProcedimentos img {
   width: 350px;
   height: auto;
 }
@@ -318,7 +311,7 @@ body {
   width: 800px;
   height: 500px;
 
-  background: #2F6158;
+  background: #2f6158;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   margin: 100px;
   border-radius: 20px;
@@ -329,17 +322,16 @@ body {
 
 #nossosparceiros {
   position: relative;
-  color: #FFF;
+  color: #fff;
   font-size: 23px;
   margin: 10px;
   display: flex;
   justify-content: center;
-
 }
 
 #patrocinador h2 {
   position: relative;
-  color: #FFF;
+  color: #fff;
   font-size: 30px;
   margin: 10px;
   display: flex;
@@ -348,7 +340,7 @@ body {
 
 #imagem {
   width: 70%;
-  height: auto;  
+  height: auto;
 }
 
 #parceria {
@@ -358,8 +350,8 @@ body {
 }
 
 #containerFooter {
-  background: #2F6158;
-  box-shadow: 0px 4px 4px #00000040; 
+  background: #2f6158;
+  box-shadow: 0px 4px 4px #00000040;
   clip-path: inset(55% 0 0 0);
 }
 
@@ -385,7 +377,7 @@ body {
 }
 
 .crefitotext {
-  color: #FFF;
+  color: #fff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 20px;
 
@@ -414,21 +406,20 @@ body {
   position: relative;
   top: 45px;
   font-size: 20px;
-  background: linear-gradient(to bottom, #ffffff,#ffffffc9, #f1f1f100);
+  background: linear-gradient(to bottom, #ffffff, #ffffffc9, #f1f1f100);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;   
+  -webkit-text-fill-color: transparent;
 }
 
 #redessociais {
   display: flex;
   justify-content: end;
   margin: 30px;
- 
 }
 
 #rede {
   position: relative;
-  width: 60px; 
+  width: 60px;
   margin: 5px;
   height: auto;
   top: px;
@@ -455,7 +446,7 @@ body {
 #lines {
   width: 100%;
   height: 1px;
- 
+
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.63);
 }
@@ -467,8 +458,7 @@ body {
   justify-content: space-between;
   margin: 10px;
 
-
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.8);
   font-family: Poppins;
   font-size: 6px;
   font-style: normal;
@@ -488,6 +478,6 @@ body {
   flex-direction: column;
 }
 
-#cidade:hover{
+#cidade:hover {
   font-size: 6.1px;
 }
